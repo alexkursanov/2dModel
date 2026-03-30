@@ -2,10 +2,9 @@
 import numpy as np
 from numba import jit
 from numba.experimental import jitclass
-from constants import *
+from .constants import *
 from numba import float64, float32, boolean
 from math import exp, log, floor, sqrt
-print(l_0)
 
 spec = [
     ('t0', float32),

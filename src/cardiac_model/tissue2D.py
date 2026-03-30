@@ -1,8 +1,8 @@
 
 import numpy as np
 from numba import jit
-from constants import *
-from Ekb_mech import ETNNP
+from .constants import *
+from .Ekb_mech import ETNNP
 import matplotlib.pyplot as plt
 from scipy import sparse
 from scipy.sparse.linalg import spsolve

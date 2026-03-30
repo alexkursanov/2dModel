@@ -1,7 +1,7 @@
 from math import log, exp
 import numpy as np
 import scipy.optimize as optimize
-from constants import *
+from .constants import *
 
 
 def calculate():
